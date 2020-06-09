@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Orange HRM]">
+  <test name="Pending leave request Test case(failed)">
+    <classes>
+      <class name="testCases.TestUserRole">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="startingbrowser"/>
+        </methods>
+      </class> <!-- testCases.TestUserRole -->
+      <class name="testCases.TestPendingLeaveRequest">
+        <methods>
+          <include name="VerifyPendingLeaveRequest"/>
+        </methods>
+      </class> <!-- testCases.TestPendingLeaveRequest -->
+    </classes>
+  </test> <!-- Pending leave request Test case(failed) -->
+  <test name="Check User Role Test case(failed)">
+    <classes>
+      <class name="testCases.TestUserRole">
+        <methods>
+          <include name="checkuserrole"/>
+          <include name="closebrowser"/>
+          <include name="startingbrowser"/>
+        </methods>
+      </class> <!-- testCases.TestUserRole -->
+    </classes>
+  </test> <!-- Check User Role Test case(failed) -->
+</suite> <!-- Failed suite [Orange HRM] -->
